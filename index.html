@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plushy Beds | Konforlu Köpek Yatakları</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">PlushyBeds</div>
+        <div class="nav-right">
+            <button id="darkModeToggle" class="btn-dark-mode">🌙</button>
+            <div class="auth-buttons">
+                <button class="btn-login">Giriş Yap</button>
+                <button class="btn-signup">Kayıt Ol</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-carousel">
+        <div class="carousel-track-container">
+            <ul class="carousel-track">
+                <li class="carousel-slide active-slide">
+                    <div class="slide-content">
+                        <span
+                            style="font-size: 14px; font-weight: 600; color: #3182ce; text-transform: uppercase; letter-spacing: 2px;">Hayvan
+                            dostlarınıza bir iyilik yapın! </span>
+                        <h2 style="font-size: 48px; margin-top: 10px; margin-bottom: 20px;">Konfor Şimdi Bir Tık
+                            Uzağınızda</h2>
+                        <p style="margin-bottom: 30px;">Dostunuz için en rahat yatağı hemen satın alın!</p>
+                        <button id="openOrderModalBtn" class="shopify-direct-link">
+                            🛒 Hemen Sipariş Ver
+                        </button>
+                    </div>
+                </li>
+                <li class="carousel-slide">
+                    <div class="slide-content">
+                        <h2 style="font-size: 42px; margin-bottom: 20px;">Güvenli Alışveriş</h2>
+                        <p style="margin-bottom: 30px;">Ödemelerinizi Türkiye'nin en güvenli altyapısı Shopier ile
+                            tamamlayın.</p>
+                        <a href="https://www.shopier.com" target="_blank" class="shopify-direct-link"
+                            style="background-color: #ec008c !important; text-decoration: none;">
+                            🛍️ Shopier Mağazamıza Git
+                        </a>
+                    </div>
+                </li>
+                <li class="carousel-slide">
+                    <img src="photos/IMG-20260217-WA0000.jpg" alt="Plushy Yatak Slayt 1" class="carousel-img">
+                    <div class="slide-content">
+                        <h2>Dostunuz İçin En Rahat Uyku Deneyimi</h2>
+                        <p>Plushy Beds ile ortopedik ve konforlu yataklarımız, evcil hayvanınızın vücut yapısına tam
+                            uyum sağlar.</p>
+                    </div>
+                </li>
+                <li class="carousel-slide">
+                    <img src="photos/IMG-20260217-WA0001.jpg" alt="Plushy Yatak Slayt 2" class="carousel-img">
+                    <div class="slide-content">
+                        <h2>Yıkanabilir ve Kolay Temizlenebilir Kumaş</h2>
+                        <p>Leke tutmayan, anti-alerjenik özel dış kılıfı sayesinde temizlik artık çok daha pratik.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <button class="carousel-button carousel-button-left">&lsaquo;</button>
+        <button class="carousel-button carousel-button-right">&rsaquo;</button>
+
+        <div class="carousel-nav">
+            <button class="carousel-indicator active-dot"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="section-row">
+            <div class="image-box">
+                <img src="photos/IMG-20260217-WA0003.jpg" alt="Ortopedik Yatak Detay" class="product-img">
+            </div>
+            <div class="text-box">
+                <h2>Neden Ortopedik Yatak?</h2>
+                <p>Dostlarımızın sağlıklı bir ömür sürmesi, uyku kaliteleriyle doğrudan ilişkilidir. Plushy ortopedik
+                    yataklar, köpeğinizin ağırlığını yüzeye eşit şekilde dağıtarak eklem ve omurga üzerindeki baskıyı
+                    minimuma indirir. Özellikle yaşlı dostlarımızda kalça displazisi ve artrit ağrılarını hafifletirken,
+                    genç dostlarımızın da iskelet gelişimini koruma altına alır.</p>
+            </div>
+        </section>
+
+        <section class="section-row reverse">
+            <div class="image-box">
+                <img src="photos/IMG-20260217-WA0006.jpg" alt="Dayanıklı Kumaş Detay" class="product-img">
+            </div>
+            <div class="text-box">
+                <h2>Uzun Ömürlü Dayanıklılık</h2>
+                <p>Evcil hayvan ürünlerinde dayanıklılığın ne kadar kritik olduğunun farkındayız. Bu yüzden Plushy
+                    yataklarında tırmalama, eşeleme ve ısırmaya karşı ekstra güçlendirilmiş, premium dokuma kumaşlar
+                    kullanıyoruz. Çift dikiş teknolojisiyle sökülmelerin önüne geçerken, iç dolgusunda zamanla çökme
+                    yapmayan yüksek yoğunluklu sünger tercih ediyoruz.</p>
+            </div>
+        </section>
+
+        <section class="section-row">
+            <div class="image-box">
+                <img src="photos/IMG-20250121-WA0023.jpg" alt="Plushy Yatak Kedi Konforu" class="product-img">
+            </div>
+            <div class="text-box">
+                <h2>Kediler İçin de Kusursuz Konfor</h2>
+                <p>Her ne kadar köpekler için tasarlamış olsak da, Plushy yataklarının sunduğu benzersiz yumuşaklık ve
+                    omurga desteği evdeki diğer dostlarımızın da gözünden kaçmıyor. Geniş iç hacmi ve yüksek kenar
+                    desteğiyle tüm evcil hayvanlar için ideal bir uyku alanı.</p>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="about-header">
+                <span>Hikayemiz</span>
+                <h2>Biz Kimiz?</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text"
+                    style="text-align: center; max-width: 800px; margin: 0 auto; margin-bottom: 50px;">
+                    <p>PlushyBeds olarak, dört ayaklı dostlarımızın yaşam kalitesini artırmak ve onlara hak ettikleri
+                        konforlu uyku deneyimini sunmak amacıyla yola çıktık. Evlerimizin birer parçası olan köpeklerin,
+                        sağlıklı bir gelişim ve huzurlu bir yaşam için en az bizim kadar kaliteli bir yatağa ihtiyaç
+                        duyduğunu biliyoruz.</p>
+                </div>
+            </div>
+
+            <div
+                style="display: flex; justify-content: center; gap: 40px; margin-top: 30px; flex-wrap: wrap; text-align: center;">
+                <div
+                    style="background: var(--bg-primary); border: 1px solid var(--border-color); padding: 20px 40px; border-radius: 12px; min-width: 200px;">
+                    <span style="font-size: 24px; display: block; margin-bottom: 8px;">🥇</span>
+                    <strong style="color: var(--text-title); display: block; margin-bottom: 5px;">Premium
+                        Kalite</strong>
+                    <span style="font-size: 14px; color: var(--text-secondary);">Dostunuz için en doğrusu</span>
+                </div>
+                <div
+                    style="background: var(--bg-primary); border: 1px solid var(--border-color); padding: 20px 40px; border-radius: 12px; min-width: 200px;">
+                    <span style="font-size: 24px; display: block; margin-bottom: 8px;">🚚</span>
+                    <strong style="color: var(--text-title); display: block; margin-bottom: 5px;">Hızlı
+                        Teslimat</strong>
+                    <span style="font-size: 14px; color: var(--text-secondary);">Anında Kargo</span>
+                </div>
+                <div
+                    style="background: var(--bg-primary); border: 1px solid var(--border-color); padding: 20px 40px; border-radius: 12px; min-width: 200px;">
+                    <span style="font-size: 24px; display: block; margin-bottom: 8px;">🛠️</span>
+                    <strong style="color: var(--text-title); display: block; margin-bottom: 5px;">7/24 Destek</strong>
+                    <span style="font-size: 14px; color: var(--text-secondary);">Müşteri Memnuniyeti</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="authModal" class="modal-overlay">
+        <div class="modal-card">
+            <button id="closeModalBtn" class="modal-close">&times;</button>
+            <h3 id="modalTitle">Giriş Yap</h3>
+            <div id="errorBox" class="error-box"></div>
+            <form id="authForm" onsubmit="event.preventDefault();">
+                <div class="input-group" id="nameGroup" style="display: none;">
+                    <label>İsim</label>
+                    <input type="text" id="nameInput" placeholder="Size nasıl hitap etmemizi istersiniz?">
+                </div>
+
+                <div class="input-group">
+                    <label>E-posta Adresi</label>
+                    <input type="email" id="emailInput" name="username" autocomplete="username"
+                        placeholder="ornek@plushy.com" required>
+                </div>
+                <div class="input-group">
+                    <label>Şifre</label>
+                    <input type="password" id="passwordInput" name="password" autocomplete="current-password" required>
+                </div>
+                <div class="input-group" id="confirmPasswordGroup" style="display: none;">
+                    <label>Şifre Tekrar</label>
+                    <input type="password" id="confirmPasswordInput" placeholder="••••••••">
+                </div>
+                <div class="remember-me-group" id="rememberMeGroup">
+                    <span class="remember-label">Beni Hatırla</span>
+                    <label class="switch">
+                        <input type="checkbox" id="rememberMeCheckbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <button type="submit" class="btn-modal-submit">Devam Et</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="orderModal" class="modal-overlay">
+        <div class="modal-card" style="max-width: 500px;">
+            <button id="closeOrderModalBtn" class="modal-close">&times;</button>
+
+            <div id="orderStep1">
+                <h3>Nasıl Devam Edelim?</h3>
+                <p style="font-size: 14px; margin-bottom: 20px; color: var(--text-secondary);">Hızlı sipariş için bir
+                    yöntem seçin.</p>
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+                    <button id="orderSelectGuest" class="btn-modal-submit"
+                        style="background-color: #2b6cb0; color: white;">
+                        ⚡ Üye Olmadan Devam Et
+                    </button>
+                    <button id="orderSelectSignup" class="btn-modal-submit"
+                        style="background-color: var(--border-color); color: var(--text-primary);">
+                        👤 Yeni Üyelik Oluştur
+                    </button>
+                    <button id="orderSelectLogin" class="btn-modal-submit"
+                        style="background-color: transparent; border: 1px solid #2b6cb0; color: #2b6cb0; margin-top: 5px;">
+                        🔑 Zaten Üyeyim, Giriş Yap
+                    </button>
+                </div>
+            </div>
+
+            <div id="orderStep2" style="display: none;">
+                <h3>Sipariş ve Teslimat Bilgileri</h3>
+                <div id="orderErrorBox" class="error-box"></div>
+                <form id="guestOrderForm" onsubmit="event.preventDefault();" style="display: block;">
+                    <div id="deliverySection" style="display: block;">
+                        <div style="display: flex; gap: 15px;">
+                            <div class="input-group" style="flex: 1;">
+                                <label>İsim</label>
+                                <input type="text" id="guestFirstName" placeholder="Mehmet" required>
+                            </div>
+                            <div class="input-group" style="flex: 1;">
+                                <label>Soyisim</label>
+                                <input type="text" id="guestLastName" placeholder="Yıldız" required>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label>E-posta Adresi</label>
+                            <input type="email" id="guestEmail" placeholder="ornek@plushy.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Telefon Numarası</label>
+                            <input type="tel" id="guestPhone" placeholder="0*** *** ** **" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Açık Adres (Mahalle, Sokak, No, Daire...)</label>
+                            <input type="text" id="guestAddress" placeholder="Atatürk Caddesi İsmet Sokak..." required>
+                        </div>
+
+                        <div style="display: flex; gap: 12px;">
+                            <div class="input-group" style="flex: 1;">
+                                <label>Şehir</label>
+                                <input type="text" id="guestCity" placeholder="İstanbul" required>
+                            </div>
+                            <div class="input-group" style="flex: 1;">
+                                <label>İlçe</label>
+                                <input type="text" id="guestDistrict" placeholder="Fatih" required>
+                            </div>
+                        </div>
+
+                        <div class="input-group" style="margin-top: 12px;">
+                            <label>Posta Kodu</label>
+                            <input type="text" id="guestZipCode" placeholder="*****" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Adet</label>
+                            <input type="number" id="guestQuantity" value="1" min="1" required>
+                        </div>
+
+                        <div id="saveProfileGroup" style="display: none; margin-bottom: 12px;">
+                            <label class="checkbox-container" for="saveProfileCheckbox">
+                                <input type="checkbox" id="saveProfileCheckbox">
+                                <span class="checkbox-text">Teslimat bilgilerimi profilime kaydet</span>
+                            </label>
+                        </div>
+
+                        <button type="button" id="goToPaymentBtn" class="btn-modal-submit"
+                            style="background-color: #2b6cb0; color: white; width: 100%; display: block; margin-top: 10px;">
+                            Ödeme Adımına Geç
+                        </button>
+                    </div>
+
+                    <div id="paymentSection" style="display: none;">
+                        <div class="input-group">
+                            <label>Kart Üzerindeki İsim</label>
+                            <input type="text" id="cardHolderName" placeholder="Mehmet Yıldız">
+                        </div>
+                        <div class="input-group">
+                            <label>Kart Numarası</label>
+                            <input type="text" id="cardNumber" placeholder="**** **** **** ****" maxlength="19">
+                        </div>
+                        <div style="display: flex; gap: 15px;">
+                            <div class="input-group" style="flex: 1;">
+                                <label>Son Kullanma (AA/YY)</label>
+                                <input type="text" id="expireDate" placeholder="12/28" maxlength="5">
+                            </div>
+                            <div class="input-group" style="flex: 1;">
+                                <label>CVC</label>
+                                <input type="text" id="cvc" placeholder="***" maxlength="4">
+                            </div>
+                        </div>
+
+                        <div id="saveCardGroup" style="display: none; margin-top: 10px; margin-bottom: 12px;">
+                            <label class="checkbox-container" for="saveCardCheckbox">
+                                <input type="checkbox" id="saveCardCheckbox">
+                                <span class="checkbox-text">Kartımı iyzico altyapısında güvenle kaydet</span>
+                            </label>
+                        </div>
+
+                        <div style="display: flex; gap: 12px; margin-top: 15px;">
+                            <button type="button" id="backToDeliveryBtn" class="btn-modal-submit"
+                                style="background-color: var(--border-color); color: var(--text-primary); flex: 1; display: block;">
+                                Geri Dön
+                            </button>
+                            <button type="submit" id="submitOrderBtn" class="btn-modal-submit"
+                                style="background-color: #ec008c; color: white; flex: 1; display: block;">
+                                Ödemeyi Tamamla
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="profileModal" class="modal-overlay">
+        <div class="modal-card">
+            <button id="closeProfileModalBtn" class="modal-close">&times;</button>
+            <h3>Profil ve Adres Bilgilerim</h3>
+            <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 20px;">Kayıtlı hesap ve teslimat
+                bilgilerinizi buradan güncelleyebilirsiniz.</p>
+
+            <div style="display: flex; gap: 15px;">
+                <div class="input-group" style="flex: 1;">
+                    <label>İsim</label>
+                    <input type="text" id="profileFirstName" placeholder="Mehmet">
+                </div>
+                <div class="input-group" style="flex: 1;">
+                    <label>Soyisim</label>
+                    <input type="text" id="profileLastName" placeholder="Yıldız">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Telefon Numarası</label>
+                <input type="tel" id="profilePhone" placeholder="0*** *** ** **">
+            </div>
+
+            <div class="input-group">
+                <label>Açık Adres</label>
+                <input type="text" id="profileAddress" placeholder="Atatürk Caddesi İsmet Sokak...">
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <div class="input-group" style="flex: 1;">
+                    <label>Şehir</label>
+                    <input type="text" id="profileCity" placeholder="İstanbul">
+                </div>
+                <div class="input-group" style="flex: 1;">
+                    <label>İlçe</label>
+                    <input type="text" id="profileDistrict" placeholder="Fatih">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Posta Kodu</label>
+                <input type="text" id="profileZip" placeholder="*****">
+            </div>
+
+            <button id="saveProfileBtn" class="btn-modal-submit"
+                style="background-color: #2b6cb0; color: white;">Değişiklikleri Kaydet</button>
+        </div>
+    </div>
+
+    <div id="ordersModal" class="modal-overlay">
+        <div class="modal-card" style="max-width: 600px;">
+            <button id="closeOrdersModalBtn" class="modal-close">&times;</button>
+            <h3>Siparişlerim</h3>
+            <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 20px;">Geçmiş siparişleriniz ve
+                kargo durumları.</p>
+            <div id="ordersList"
+                style="display: flex; flex-direction: column; gap: 15px; max-height: 60vh; overflow-y: auto; padding-right: 5px;">
+            </div>
+        </div>
+    </div>
+    <script src="base.js"></script>
+</body>
+
+</html>
+<script src="base.js"></script>
+</body>
+
+</html>
